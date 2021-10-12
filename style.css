@@ -1,0 +1,54 @@
+*{padding: 0; margin: 0;}
+
+html
+{scroll-behavior: smooth; box-sizing: border-box;}
+
+body { font-family:'oswald' , sans-serif; background-color: bisque;}
+
+.header {display: flex;}
+.imgprincipal {display: flex;}
+.imgprincipal img {border-radius: 50%; width: 50%; display: flex; margin-left: 15%; margin-top: 5%;}
+.marca img {display: flex; height: fit-content;margin-top: 20%;}
+.barranav nav {display: flex; flex-wrap: wrap;}
+.barranav a {text-decoration: none; font-weight:bold; font-size: 25px; flex-wrap: wrap;}
+
+.soulsurfer a {color:#033168;}
+.circulo1 {color:#033168}
+.videostitulo a {color: #333c87;}
+.circulo2 {color: #333c87;}
+.compe a {color: #4392bb;}
+.circulo3 {color: #4392bb;}
+.paginaoficialtitulo a {color: #11bbb5;}
+.circulo4 {color: #11bbb5;}
+
+.sobremi p {padding: 4%;text-align: center;font-size: 25px; }
+
+.competenciasdiv p {border-radius: 50%; background-color: #148c9f;margin: 8%;
+    padding: 4%; font-weight:bold;}
+.competenciasdiv {display: flex; flex-wrap: wrap;  justify-content: space-between; padding-left: 4%; padding-right: 4%;}
+
+h1#SOULSURFER {text-align: center; font-size: 30px;}
+h2#COMPETENCIAS {text-align: center; font-size: 30px;}
+h2#VIDEOS{text-align: center; font-size: 30px; margin-bottom: 2%;}
+h2#PAGINAWEB{text-align: center; font-size: 30px; margin-bottom: 2%;}
+h2{text-align: center; font-size: 30px; font-weight:bold;}
+
+.videoyweb {display: flex;justify-content: space-around;}
+.videoyweb h2#VIDEOS{text-align: center; font-size: 30px; font-weight:bold;}
+
+.REDESSOCIALES {display: flex; font-size: 300%;justify-content: space-evenly; margin-bottom: 3%;}
+
+@media (min-width: 581px)  (max-width: 990px ;) 
+{
+
+    .imgprincipal img {border-radius: 50%; width: 50%; display: flex; margin-left: 15%;}
+    
+    body {background-color: tomato;}
+
+}
+
+@media (max-width: 580px)  {
+    
+    body {background-color:yellow;}
+}
+
